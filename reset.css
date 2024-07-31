@@ -44,3 +44,7 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  #root{
+    font-size: 62.5%;
+  }

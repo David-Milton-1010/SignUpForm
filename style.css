@@ -4,5 +4,39 @@
 }
 
 body {
-  font-family: "Norse";
+  height: 100vh;
+  font-family: "Norse", sans-serif;
+  font-size: 2rem;
+}
+
+.side__title{
+  height: 100%;
+  width: 50%;
+  background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.aside__odin {
+  margin-top: 16rem;
+  display: inline-block;
+  color: white;
+  width: 100%;
+  max-height: max-content;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.aside__odin > img {
+  height: 12rem;
+  display: inherit;
+}
+
+.aside__odin > span {
+  display: inherit;
+  font-size: 6.6rem;
 }
