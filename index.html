@@ -9,34 +9,47 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="side__title">
-        <div class="aside__odin">
-          <img src="images/odin-lined.png" alt="odin dog" title="ODIN" /><span>ODIN</span>
+      <div class="side-left">
+        <div class="side-left__odin">
+          <img src="images/odin-lined.png" alt="odin dog" title="ODIN" /><span
+            >ODIN</span
+          >
         </div>
       </div>
-      <main>
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams. Sign up now to get
-        started.
+      <div class="side-right">
+        <div class="side-right__top">
+          <div class="side-right__top-maintext">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br> Sign up
+            now to get started.
+          </div>
 
-        <span>You know you want to.</span>
-
-        <form action="#">
-          <title>Let's do this</title>
-          <div class="form__inputs">
+          <span class="side-right__top-suggest">You <em>know</em> you want to.</span>
+        </div>
+        <div class="side-right__middle">
+          <p>Let's do this</p>
+          <form action="#" id="account">
             <input type="text" name="First Name" id="fname" />
             <input type="text" name="Last Name" id="lname" />
             <input type="email" name="Email" id="email" />
             <input type="tel" name="Phone Number" id="phone" />
             <input type="password" name="Password" id="password" />
             <input type="password" name="Confirm Password" id="cpassword" />
-          </div>
-          <input type="submit" value="Create Account" class="createAccount" />
-        </form>
-        <footer class="footer">
-          Already have an account? <a href="#">Log in</a>
-        </footer>
-      </main>
+          </form>
+        </div>
+        <div class="side-right__bottom">
+          <input
+            type="submit"
+            value="Create Account"
+            class="createAccount"
+            form="account"
+          />
+
+          <footer class="footer">
+            Already have an account? <a href="#">Log in</a>
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>
