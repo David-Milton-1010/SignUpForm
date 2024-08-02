@@ -47,12 +47,26 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1.2fr 1fr 1.2fr;
-  padding: 4rem 24rem 2rem 3rem;
+  /* padding: 4rem 24rem 2rem 3rem; */
 }
 
+.side-right__middle{
+  background-color: rgb(240, 240, 241);
+padding: 16px 0 56px 56px;
+}
+label,input{
+  display:flex;
+  flex-direction:column;
+}
 
-.side-right__top, .side-right__bottom{
-  background-color: white;
+input{
+
+}
+
+#account{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
 }
 
 .side-right__top{
@@ -63,3 +77,4 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
